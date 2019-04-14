@@ -14,7 +14,7 @@ namespace Audioplayer
         public bool isLock;
         private bool playing;
         public Song[] songs;
-
+        //B5-Player4/10. Properties.
         public bool Playing
         {
             get
@@ -22,6 +22,7 @@ namespace Audioplayer
                 return playing;
             }
         }
+        //B5-Player3/10. Method.
         public int Volume
         {
             get
@@ -45,7 +46,15 @@ namespace Audioplayer
             }
 
         }
-
+        //B5-Player8/10. ParamsParameters
+        public void ParametrSong(params Song[] SongList)
+        {
+            foreach (Song item in SongList)
+            {
+                Console.WriteLine(item.title);
+            }
+        }
+        //B5-Player3/10. Method. 
         public void VolumeUp()
         {
             Volume = Volume + 1;
