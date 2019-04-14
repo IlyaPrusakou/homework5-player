@@ -4,10 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AudioPlayer
+namespace Audioplayer
 {
     class Song
     {
-        
+        public int duration;
+        public string title;
+        public string songPath;
+        public string lyrics;
+        public string songGenre;
+        public Artist artist;
+        public Album album;
+        public Player player;
+        public Playlist[] playlists = new Playlist[2];
+
+
     }
 }

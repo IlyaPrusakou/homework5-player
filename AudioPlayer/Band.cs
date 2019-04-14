@@ -4,11 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AudioPlayer
+namespace Audioplayer
 {
     class Band
     {
-        
-
+        public string bandTitle;
+        public string bandGenre;
+        public int bandYear;
+        public bool isExist;
+        public Artist[] artists;
     }
 }
