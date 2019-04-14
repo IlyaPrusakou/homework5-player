@@ -22,7 +22,7 @@ namespace Audioplayer
                 return playing;
             }
         }
-        
+         
         public int Volume
         {
             get
